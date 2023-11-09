@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Kohinoor-semiBold";
+  src: url("../fonts/KohinoorDevanagari-Regular.otf") format("otf"),
+    url("../fonts/KohinoorDevanagari-Regular.eot") format("eot"),
+    url("../fonts/KohinoorDevanagari-Regular.ttf") format("ttf"),
+    url("../fonts/KohinoorDevanagari-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "hoefler";
+  src: url("../fonts/hoefler/ufonts.com_hoefler-text.ttf") format("ttf")
+}
+
+html {
+  font-family: Kohinoor-light;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Kohinoor-semiBold;
+}
+nav *{
+  font-family: hoefler;
+}
+.box-black {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer a{
+  color: white;
+}
+footer div div p {
+  line-height: 1.2rem;
+  margin-bottom: 8px;
+}
+.styleList li {
+  padding: 6px 0;
+}
+.headerImg img {
+  width: 26px;
+  height: 26px;
+  margin: 0 5px;
+}
+footer div div h4 {
+  color: #ffffff;
+}
+.collapse ul li:hover {
+  background-color: #d3d3d3;
+}
+.collapse ul li {
+  padding-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  /* Your CSS styles for small screens here */
+  #change-top p:first-child{
+    font-size: 2em !important;
+  }
+}
+
+@media screen and (min-width: 767px) {
+    #change-top{
+        position: absolute;
+        top: 8%; 
+        left: 4%;
+    }
+  }
+  #change-top *{
+    font-family: Kohinoor-semiBold;
+  }
+  #change-top{
+    height: 373px;
+  }
+  #change-top p:first-child{
+    font-size: 3em;
+    padding-top: 90px;
+    margin-bottom: 15px;
+  }
+  #change-top p:last-child{
+    margin-top: 60px;
+  }
+  #change-top p{
+    padding: 0;
+    margin: 0 ;
+    line-height: 1.4rem;
+  }
+  #change-top p a{
+    color: #4cb4e9;
+  }
+
+
+#change-top-Buying p a{
+  color: #4cb4e9 ;
+}
+#change-top-Buying p{
+  padding: 0;
+  margin: 0 ;
+  line-height: 1.2rem;
+}
+#change-top-Buying p:first-child{
+  font-size: 3em;
+  padding-top: 40px;
+  margin-bottom: 35px;
+}
+#change-top-Buying *{
+  font-family: Kohinoor-semiBold;
+}
+#change-top-Buying{
+  height: 160px;
+}
+@media screen and (min-width: 767px) {
+  #change-top-Buying{
+      position: absolute;
+      top: 16%; 
+      left: 9%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Your CSS styles for small screens here */
+  #change-top-Buying p:first-child{
+    font-size: 2em !important;
+  }
+}
+
+
+  .carousel-item img{
+    height: 428px;
+  }
+  #logoSection .mx-auto{
+    border-top: 1px solid #e2d3cd;
+    border-bottom: 1px solid #e2d3cd;
+  }
+  #logoSection .mx-auto h3{
+    font-family: hoefler;
+  }
+  #peragraphSection{
+    margin-top: 20px;
+  }
+  #registerSection{
+    margin-top: 84px;
+  }
+  #registerSection * a{
+    color: #4cb4e9;
+  }
+  #banner{
+    border-color: #e2d3cd;
+  }
+  #banner h3{
+    font-family: hoefler;
+  }
+  footer *{
+    border-color: #e2d3cd;
+  }
+  footer{
+    margin-top: 312px;
+    background-color: #cebfba;
+  }
+  #bannerImg img{
+    height: 222px !important;
+  }
+  #sectionThree{
+    margin-top: 40px;
+  }
+  #sectionThree .col-sm-7 .list-unstyled{
+    padding: 12px 0;
+  }
+  .container .text-center p:first-child{
+    font-size: 48px;
+  }
+  #imgDisplaySection img{
+    text-align: center;
+  }
+  .container .col-sm-7 .list-unstyled{
+    padding: 12px 0;
+  }
